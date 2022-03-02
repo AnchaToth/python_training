@@ -29,5 +29,9 @@ print(str(hours)+" óra = "+str(minutes)+" perc")
 word = "valami_nagyon_hosszu_karakterlanc"
 print("a hosszu szó = "+(str(len(word)))+" karakter")
 
+fruit = "alma"
+print('gyumolcs: "'+fruit+'"')
+print("gyumolcs: \""+fruit+"\"")
+
 
 

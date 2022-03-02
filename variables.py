@@ -27,3 +27,10 @@ salary ="kétszáz"
 print(salary)
 print(type(salary))
 
+print(""" a string with many
+many 
+many lines""")
+
+
+
+
