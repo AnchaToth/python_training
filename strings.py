@@ -74,3 +74,19 @@ print(count_a("barmi"))
 print(count_a("elemer"))
 print(count_vowels("ebben"))
 print(sever_word("eztszeddszet"))
+
+print(name.index("Doe"))
+print("alma korte barack".split())
+fruits_list = "alma korte barack".split()
+print(fruits_list)
+
+for n in fruits_list:
+    print(n)
+
+names = "john doe jack doe jane doe"
+print(names.upper()[4:15].split())
+
+ip = "192.168.1.0"
+print(ip.split("."))
+for octet in ip.split("."):
+     print(int(octet))
