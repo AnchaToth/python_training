@@ -3,11 +3,13 @@
 # ellenekzo esetben False
 
 def is_ascending(num_a, num_b, num_c):
-    if num_a == num_b or num_a == num_c or num_b == num_c:
-        return False
-    if num_a < num_b and num_b < num_c:
-        return True
-    return False
+    # if num_a == num_b or num_a == num_c or num_b == num_c:
+    #     return False
+    # if num_a < num_b and num_b < num_c:
+    #     return True
+    # return False
+    return num_a < num_b  < num_c
+
 
 # print(is_ascending(1,3,6))
 # print(is_ascending(1,10,20))
